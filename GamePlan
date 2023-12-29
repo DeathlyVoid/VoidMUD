@@ -1,0 +1,26 @@
+```diff
+-============================================================================================================- 
+MONSTER GAME CHANGE LOG - CREATION DATE: DECEMBER 29TH, 2023
+-============================================================================================================- 
+
+DECEMBER 29TH, 2023
+-============================================================================================================- 
++ Figure out why monster attack keeps going up and up and never resetting
++ See why the rounds are not counting correctly
++ Make sure HP resets properly after every fight
++ Implement player damage
++ Implement monster HP
++ Add coins
++ Add monster death
++ Save coins
++ Refactor a few functions in the main function to be easier to read and more reusable, improve breakpoints.
+-============================================================================================================- 
+DECEMBER 30TH, 2023
+-============================================================================================================- 
+- Implement FIGHT command
+- Change from turn based combat to active combat
+- Implement monster names, and targeting
+- Implement skills (MAYBE TOO HARD) - This involves await or waiting or inserting??? Maybe we can have a function that checks if skill is used, and if skill == true then use it on next roundcheck attack
+- Think about implementing xp??
+- Think about changing monster charge up to monster dieroll, and eventually scale dieroll to level
+```
